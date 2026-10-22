@@ -1,0 +1,13 @@
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.pt
+*.pth
+data/raw/
+data/frames/
+*.aux
+*.log
+*.toc
+*.out
+*.synctex.gz
+.DS_Store
