@@ -1,0 +1,241 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs>
+<marker id="ah" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L9,4.5 L0,9 z" fill="#374151"/></marker>
+<marker id="ahF" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L9,4.5 L0,9 z" fill="#0F766E"/></marker>
+<marker id="ahP" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L9,4.5 L0,9 z" fill="#C2410C"/></marker>
+<marker id="ahN" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L9,4.5 L0,9 z" fill="#6D28D9"/></marker>
+<marker id="ahB" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L9,4.5 L0,9 z" fill="#1D4ED8"/></marker>
+<marker id="ahG" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L9,4.5 L0,9 z" fill="#15803D"/></marker>
+<marker id="ahR" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L9,4.5 L0,9 z" fill="#BE123C"/></marker>
+</defs>
+<rect width="1280" height="720" fill="#ffffff"/>
+<rect x="726" y="15" width="358" height="690" rx="12" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="1.6" stroke-dasharray="7 4" opacity="0.45"/>
+<rect x="1092" y="15" width="180" height="690" rx="12" fill="#DCFCE7" stroke="#15803D" stroke-width="1.6" stroke-dasharray="7 4" opacity="0.45"/>
+<rect x="8" y="15" width="710" height="220" rx="12" fill="#CCFBF1" stroke="#CCFBF1" stroke-width="1.4" opacity="0.45"/>
+<text x="26" y="43" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#0F766E">Fingertip video <tspan font-size="12" font-weight="normal" fill="#6B7280">(YEMAS)</tspan></text>
+<g transform="translate(-6.400000000000002,-67.0) scale(0.8)">
+<rect x="38" y="206" width="74" height="74" rx="5" fill="#fff" stroke="#0F766E" stroke-width="1.3"/>
+<rect x="45" y="199" width="74" height="74" rx="5" fill="#fff" stroke="#0F766E" stroke-width="1.3"/>
+<rect x="52" y="192" width="74" height="74" rx="5" fill="#fff" stroke="#0F766E" stroke-width="1.3"/>
+<rect x="59" y="185" width="74" height="74" rx="5" fill="#fff" stroke="#0F766E" stroke-width="1.3"/>
+<rect x="81" y="191" width="30" height="62" rx="15" fill="#F2C9A5" stroke="#E8B48C"/>
+<ellipse cx="96" cy="205" rx="9" ry="6" fill="#F7DCC4"/>
+</g>
+<text x="24" y="175" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#1F2937" text-anchor="start">32 frames</text>
+<text x="24" y="192" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11.5" font-weight="normal" fill="#0F766E" text-anchor="start">B×32×3×224×224</text>
+<polyline points="106,119 142,119" fill="none" stroke="#0F766E" stroke-width="2.2" marker-end="url(#ahF)" stroke-linejoin="round"/>
+<rect x="145" y="67" width="175" height="116" rx="9" fill="#fff" fill-opacity="0.7" stroke="#0F766E" stroke-width="1.6"/>
+<text x="232" y="88" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#0F766E" text-anchor="middle">ResNet-18</text>
+<text x="232" y="104" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#6B7280" text-anchor="middle">ImageNet init · fine-tuned</text>
+<rect x="164" y="108.0" width="15" height="34" rx="2" fill="#CCFBF1" stroke="#0F766E" stroke-width="1.2"/>
+<rect x="189" y="110.0" width="15" height="30" rx="2" fill="#CCFBF1" stroke="#0F766E" stroke-width="1.2"/>
+<rect x="214" y="112.5" width="15" height="25" rx="2" fill="#CCFBF1" stroke="#0F766E" stroke-width="1.2"/>
+<rect x="239" y="115.0" width="15" height="20" rx="2" fill="#CCFBF1" stroke="#0F766E" stroke-width="1.2"/>
+<rect x="264" y="117.5" width="15" height="15" rx="2" fill="#CCFBF1" stroke="#0F766E" stroke-width="1.2"/>
+<text x="232" y="159" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#6B7280" text-anchor="middle">applied to every frame</text>
+<text x="232" y="175" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#1F2937" text-anchor="middle">512-d → Linear → 256-d</text>
+<polyline points="320,125 391,125" fill="none" stroke="#0F766E" stroke-width="2.2" marker-end="url(#ahF)" stroke-linejoin="round"/>
+<text x="356" y="117" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11.5" font-weight="normal" fill="#0F766E" text-anchor="middle">B×32×256</text>
+<rect x="392" y="63" width="200" height="124" rx="9" fill="#fff" fill-opacity="0.7" stroke="#0F766E" stroke-width="1.6"/>
+<text x="492" y="83" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#0F766E" text-anchor="middle">Bi-LSTM</text>
+<text x="492" y="99" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#6B7280" text-anchor="middle">1 layer · 128 units / direction</text>
+<rect x="412" y="111" width="52" height="20" rx="4" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="1.3"/>
+<text x="438" y="127" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#1D4ED8" text-anchor="middle">→</text>
+<rect x="412" y="135" width="52" height="20" rx="4" fill="#FFE4E6" stroke="#BE123C" stroke-width="1.3"/>
+<text x="438" y="151" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#BE123C" text-anchor="middle">←</text>
+<rect x="470" y="111" width="52" height="20" rx="4" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="1.3"/>
+<text x="496" y="127" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#1D4ED8" text-anchor="middle">→</text>
+<rect x="470" y="135" width="52" height="20" rx="4" fill="#FFE4E6" stroke="#BE123C" stroke-width="1.3"/>
+<text x="496" y="151" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#BE123C" text-anchor="middle">←</text>
+<rect x="528" y="111" width="52" height="20" rx="4" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="1.3"/>
+<text x="554" y="127" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#1D4ED8" text-anchor="middle">→</text>
+<rect x="528" y="135" width="52" height="20" rx="4" fill="#FFE4E6" stroke="#BE123C" stroke-width="1.3"/>
+<text x="554" y="151" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#BE123C" text-anchor="middle">←</text>
+<text x="492" y="174" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#1F2937" text-anchor="middle">concat both ends → Linear 256</text>
+<polyline points="592,125 619,125" fill="none" stroke="#0F766E" stroke-width="2.2" marker-end="url(#ahF)" stroke-linejoin="round"/>
+<rect x="622" y="91" width="24" height="68" rx="4" fill="#CCFBF1" stroke="#0F766E" stroke-width="1.6"/>
+<line x1="622" y1="102.33333333333333" x2="646" y2="102.33333333333333" stroke="#0F766E" stroke-width="0.7" opacity="0.5"/>
+<line x1="622" y1="113.66666666666667" x2="646" y2="113.66666666666667" stroke="#0F766E" stroke-width="0.7" opacity="0.5"/>
+<line x1="622" y1="125.0" x2="646" y2="125.0" stroke="#0F766E" stroke-width="0.7" opacity="0.5"/>
+<line x1="622" y1="136.33333333333334" x2="646" y2="136.33333333333334" stroke="#0F766E" stroke-width="0.7" opacity="0.5"/>
+<line x1="622" y1="147.66666666666666" x2="646" y2="147.66666666666666" stroke="#0F766E" stroke-width="0.7" opacity="0.5"/>
+<text x="634" y="177" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#0F766E" text-anchor="middle">v<tspan dy="3" font-size="10">F</tspan></text>
+<polyline points="646,125 666,125" fill="none" stroke="#0F766E" stroke-width="2.2" marker-end="url(#ahF)" stroke-linejoin="round"/>
+<circle cx="680" cy="125" r="13" fill="#fff" stroke="#0F766E" stroke-width="1.8"/>
+<text x="680" y="131" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#0F766E" text-anchor="middle">+</text>
+<rect x="661" y="61" width="38" height="24" rx="5" fill="#fff" stroke="#0F766E" stroke-width="1.4" stroke-dasharray="4 3"/>
+<text x="680" y="78" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#0F766E" text-anchor="middle">e<tspan dy="3" font-size="10">F</tspan></text>
+<polyline points="680,85 680,110" fill="none" stroke="#0F766E" stroke-width="1.6" marker-end="url(#ahF)" stroke-linejoin="round"/>
+<polyline points="693,125 758,125" fill="none" stroke="#0F766E" stroke-width="2.2" marker-end="url(#ahF)" stroke-linejoin="round"/>
+<rect x="760" y="113" width="62" height="24" rx="4" fill="#CCFBF1" stroke="#0F766E" stroke-width="1.5"/>
+<text x="791" y="129" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#0F766E" text-anchor="middle">token F</text>
+<polyline points="822,125 846,125" fill="none" stroke="#1D4ED8" stroke-width="2.2" stroke-linejoin="round"/>
+<rect x="8" y="250" width="710" height="220" rx="12" fill="#FFEDD5" stroke="#FFEDD5" stroke-width="1.4" opacity="0.45"/>
+<text x="26" y="278" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#C2410C">Palm video <tspan font-size="12" font-weight="normal" fill="#6B7280">(PALMAS)</tspan></text>
+<g transform="translate(-6.400000000000002,-16.0) scale(0.8)">
+<rect x="38" y="436" width="74" height="74" rx="5" fill="#fff" stroke="#C2410C" stroke-width="1.3"/>
+<rect x="45" y="429" width="74" height="74" rx="5" fill="#fff" stroke="#C2410C" stroke-width="1.3"/>
+<rect x="52" y="422" width="74" height="74" rx="5" fill="#fff" stroke="#C2410C" stroke-width="1.3"/>
+<rect x="59" y="415" width="74" height="74" rx="5" fill="#fff" stroke="#C2410C" stroke-width="1.3"/>
+<ellipse cx="96" cy="463" rx="24" ry="20" fill="#F2C9A5" stroke="#E8B48C"/>
+<rect x="73" y="427" width="10" height="30" rx="5" fill="#F2C9A5" stroke="#E8B48C"/>
+<rect x="85" y="423" width="10" height="30" rx="5" fill="#F2C9A5" stroke="#E8B48C"/>
+<rect x="97" y="423" width="10" height="30" rx="5" fill="#F2C9A5" stroke="#E8B48C"/>
+<rect x="109" y="427" width="10" height="30" rx="5" fill="#F2C9A5" stroke="#E8B48C"/>
+</g>
+<text x="24" y="410" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#1F2937" text-anchor="start">16 frames</text>
+<text x="24" y="427" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11.5" font-weight="normal" fill="#C2410C" text-anchor="start">B×16×3×224×224</text>
+<polyline points="106,354 142,354" fill="none" stroke="#C2410C" stroke-width="2.2" marker-end="url(#ahP)" stroke-linejoin="round"/>
+<rect x="145" y="302" width="175" height="116" rx="9" fill="#fff" fill-opacity="0.7" stroke="#C2410C" stroke-width="1.6"/>
+<text x="232" y="323" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#C2410C" text-anchor="middle">ResNet-18</text>
+<text x="232" y="339" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#6B7280" text-anchor="middle">ImageNet init · fine-tuned</text>
+<rect x="164" y="343.0" width="15" height="34" rx="2" fill="#FFEDD5" stroke="#C2410C" stroke-width="1.2"/>
+<rect x="189" y="345.0" width="15" height="30" rx="2" fill="#FFEDD5" stroke="#C2410C" stroke-width="1.2"/>
+<rect x="214" y="347.5" width="15" height="25" rx="2" fill="#FFEDD5" stroke="#C2410C" stroke-width="1.2"/>
+<rect x="239" y="350.0" width="15" height="20" rx="2" fill="#FFEDD5" stroke="#C2410C" stroke-width="1.2"/>
+<rect x="264" y="352.5" width="15" height="15" rx="2" fill="#FFEDD5" stroke="#C2410C" stroke-width="1.2"/>
+<text x="232" y="394" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#6B7280" text-anchor="middle">applied to every frame</text>
+<text x="232" y="410" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#1F2937" text-anchor="middle">512-d → Linear → 256-d</text>
+<polyline points="320,360 391,360" fill="none" stroke="#C2410C" stroke-width="2.2" marker-end="url(#ahP)" stroke-linejoin="round"/>
+<text x="356" y="352" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11.5" font-weight="normal" fill="#C2410C" text-anchor="middle">B×16×256</text>
+<rect x="392" y="298" width="200" height="124" rx="9" fill="#fff" fill-opacity="0.7" stroke="#C2410C" stroke-width="1.6"/>
+<text x="492" y="318" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#C2410C" text-anchor="middle">Bi-LSTM</text>
+<text x="492" y="334" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#6B7280" text-anchor="middle">1 layer · 128 units / direction</text>
+<rect x="412" y="346" width="52" height="20" rx="4" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="1.3"/>
+<text x="438" y="362" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#1D4ED8" text-anchor="middle">→</text>
+<rect x="412" y="370" width="52" height="20" rx="4" fill="#FFE4E6" stroke="#BE123C" stroke-width="1.3"/>
+<text x="438" y="386" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#BE123C" text-anchor="middle">←</text>
+<rect x="470" y="346" width="52" height="20" rx="4" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="1.3"/>
+<text x="496" y="362" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#1D4ED8" text-anchor="middle">→</text>
+<rect x="470" y="370" width="52" height="20" rx="4" fill="#FFE4E6" stroke="#BE123C" stroke-width="1.3"/>
+<text x="496" y="386" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#BE123C" text-anchor="middle">←</text>
+<rect x="528" y="346" width="52" height="20" rx="4" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="1.3"/>
+<text x="554" y="362" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#1D4ED8" text-anchor="middle">→</text>
+<rect x="528" y="370" width="52" height="20" rx="4" fill="#FFE4E6" stroke="#BE123C" stroke-width="1.3"/>
+<text x="554" y="386" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#BE123C" text-anchor="middle">←</text>
+<text x="492" y="409" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#1F2937" text-anchor="middle">concat both ends → Linear 256</text>
+<polyline points="592,360 619,360" fill="none" stroke="#C2410C" stroke-width="2.2" marker-end="url(#ahP)" stroke-linejoin="round"/>
+<rect x="622" y="326" width="24" height="68" rx="4" fill="#FFEDD5" stroke="#C2410C" stroke-width="1.6"/>
+<line x1="622" y1="337.3333333333333" x2="646" y2="337.3333333333333" stroke="#C2410C" stroke-width="0.7" opacity="0.5"/>
+<line x1="622" y1="348.6666666666667" x2="646" y2="348.6666666666667" stroke="#C2410C" stroke-width="0.7" opacity="0.5"/>
+<line x1="622" y1="360.0" x2="646" y2="360.0" stroke="#C2410C" stroke-width="0.7" opacity="0.5"/>
+<line x1="622" y1="371.3333333333333" x2="646" y2="371.3333333333333" stroke="#C2410C" stroke-width="0.7" opacity="0.5"/>
+<line x1="622" y1="382.6666666666667" x2="646" y2="382.6666666666667" stroke="#C2410C" stroke-width="0.7" opacity="0.5"/>
+<text x="634" y="412" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#C2410C" text-anchor="middle">v<tspan dy="3" font-size="10">P</tspan></text>
+<polyline points="646,360 666,360" fill="none" stroke="#C2410C" stroke-width="2.2" marker-end="url(#ahP)" stroke-linejoin="round"/>
+<circle cx="680" cy="360" r="13" fill="#fff" stroke="#C2410C" stroke-width="1.8"/>
+<text x="680" y="366" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#C2410C" text-anchor="middle">+</text>
+<rect x="661" y="296" width="38" height="24" rx="5" fill="#fff" stroke="#C2410C" stroke-width="1.4" stroke-dasharray="4 3"/>
+<text x="680" y="313" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#C2410C" text-anchor="middle">e<tspan dy="3" font-size="10">P</tspan></text>
+<polyline points="680,320 680,345" fill="none" stroke="#C2410C" stroke-width="1.6" marker-end="url(#ahP)" stroke-linejoin="round"/>
+<polyline points="693,360 758,360" fill="none" stroke="#C2410C" stroke-width="2.2" marker-end="url(#ahP)" stroke-linejoin="round"/>
+<rect x="760" y="348" width="62" height="24" rx="4" fill="#FFEDD5" stroke="#C2410C" stroke-width="1.5"/>
+<text x="791" y="364" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#C2410C" text-anchor="middle">token P</text>
+<polyline points="822,360 846,360" fill="none" stroke="#1D4ED8" stroke-width="2.2" stroke-linejoin="round"/>
+<rect x="8" y="485" width="710" height="220" rx="12" fill="#EDE9FE" stroke="#EDE9FE" stroke-width="1.4" opacity="0.45"/>
+<text x="26" y="513" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#6D28D9">Nail photograph <tspan font-size="12" font-weight="normal" fill="#6B7280">(UNAS)</tspan></text>
+<g transform="translate(-6.400000000000002,26.600000000000023) scale(0.8)">
+<rect x="38" y="666" width="74" height="74" rx="5" fill="#fff" stroke="#6D28D9" stroke-width="1.3"/>
+<rect x="57" y="679" width="36" height="48" rx="12" fill="#F2C9A5" stroke="#E8B48C"/>
+<rect x="63" y="685" width="24" height="34" rx="9" fill="#F9E3D6" stroke="#E9B9A0"/>
+</g>
+<text x="24" y="645" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#1F2937" text-anchor="start">1 photo</text>
+<text x="24" y="662" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11.5" font-weight="normal" fill="#6D28D9" text-anchor="start">B×3×224×224</text>
+<polyline points="106,589 142,589" fill="none" stroke="#6D28D9" stroke-width="2.2" marker-end="url(#ahN)" stroke-linejoin="round"/>
+<rect x="145" y="537" width="175" height="116" rx="9" fill="#fff" fill-opacity="0.7" stroke="#6D28D9" stroke-width="1.6"/>
+<text x="232" y="558" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#6D28D9" text-anchor="middle">ResNet-18</text>
+<text x="232" y="574" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#6B7280" text-anchor="middle">ImageNet init · fine-tuned</text>
+<rect x="164" y="578.0" width="15" height="34" rx="2" fill="#EDE9FE" stroke="#6D28D9" stroke-width="1.2"/>
+<rect x="189" y="580.0" width="15" height="30" rx="2" fill="#EDE9FE" stroke="#6D28D9" stroke-width="1.2"/>
+<rect x="214" y="582.5" width="15" height="25" rx="2" fill="#EDE9FE" stroke="#6D28D9" stroke-width="1.2"/>
+<rect x="239" y="585.0" width="15" height="20" rx="2" fill="#EDE9FE" stroke="#6D28D9" stroke-width="1.2"/>
+<rect x="264" y="587.5" width="15" height="15" rx="2" fill="#EDE9FE" stroke="#6D28D9" stroke-width="1.2"/>
+<text x="232" y="629" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#6B7280" text-anchor="middle">applied to the photo</text>
+<text x="232" y="645" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#1F2937" text-anchor="middle">512-d → Linear → 256-d</text>
+<polyline points="320,595 391,595" fill="none" stroke="#6D28D9" stroke-width="2.2" marker-end="url(#ahN)" stroke-linejoin="round"/>
+<text x="356" y="587" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11.5" font-weight="normal" fill="#6D28D9" text-anchor="middle">B×256</text>
+<rect x="392" y="533" width="200" height="124" rx="9" fill="#fff" stroke="#6D28D9" stroke-width="1.6" stroke-dasharray="6 4"/>
+<text x="492" y="581" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#6D28D9" text-anchor="middle">No temporal axis</text>
+<text x="492" y="601" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#6B7280" text-anchor="middle">a single photo is already</text>
+<text x="492" y="616" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#6B7280" text-anchor="middle">one 256-d vector</text>
+<polyline points="592,595 619,595" fill="none" stroke="#6D28D9" stroke-width="2.2" marker-end="url(#ahN)" stroke-linejoin="round"/>
+<rect x="622" y="561" width="24" height="68" rx="4" fill="#EDE9FE" stroke="#6D28D9" stroke-width="1.6"/>
+<line x1="622" y1="572.3333333333334" x2="646" y2="572.3333333333334" stroke="#6D28D9" stroke-width="0.7" opacity="0.5"/>
+<line x1="622" y1="583.6666666666666" x2="646" y2="583.6666666666666" stroke="#6D28D9" stroke-width="0.7" opacity="0.5"/>
+<line x1="622" y1="595.0" x2="646" y2="595.0" stroke="#6D28D9" stroke-width="0.7" opacity="0.5"/>
+<line x1="622" y1="606.3333333333334" x2="646" y2="606.3333333333334" stroke="#6D28D9" stroke-width="0.7" opacity="0.5"/>
+<line x1="622" y1="617.6666666666666" x2="646" y2="617.6666666666666" stroke="#6D28D9" stroke-width="0.7" opacity="0.5"/>
+<text x="634" y="647" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#6D28D9" text-anchor="middle">v<tspan dy="3" font-size="10">N</tspan></text>
+<polyline points="646,595 666,595" fill="none" stroke="#6D28D9" stroke-width="2.2" marker-end="url(#ahN)" stroke-linejoin="round"/>
+<circle cx="680" cy="595" r="13" fill="#fff" stroke="#6D28D9" stroke-width="1.8"/>
+<text x="680" y="601" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#6D28D9" text-anchor="middle">+</text>
+<rect x="661" y="531" width="38" height="24" rx="5" fill="#fff" stroke="#6D28D9" stroke-width="1.4" stroke-dasharray="4 3"/>
+<text x="680" y="548" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#6D28D9" text-anchor="middle">e<tspan dy="3" font-size="10">N</tspan></text>
+<polyline points="680,555 680,580" fill="none" stroke="#6D28D9" stroke-width="1.6" marker-end="url(#ahN)" stroke-linejoin="round"/>
+<polyline points="693,595 758,595" fill="none" stroke="#6D28D9" stroke-width="2.2" marker-end="url(#ahN)" stroke-linejoin="round"/>
+<rect x="760" y="583" width="62" height="24" rx="4" fill="#EDE9FE" stroke="#6D28D9" stroke-width="1.5"/>
+<text x="791" y="599" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#6D28D9" text-anchor="middle">token N</text>
+<polyline points="822,595 846,595" fill="none" stroke="#1D4ED8" stroke-width="2.2" stroke-linejoin="round"/>
+<polyline points="846,125 846,595" fill="none" stroke="#1D4ED8" stroke-width="2.2" stroke-linejoin="round"/>
+<polyline points="846,360 877,360" fill="none" stroke="#1D4ED8" stroke-width="2.2" marker-end="url(#ahB)" stroke-linejoin="round"/>
+<rect x="878" y="190" width="192" height="350" rx="10" fill="#fff" stroke="#1D4ED8" stroke-width="2"/>
+<text x="974" y="222" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#1D4ED8" text-anchor="middle">Self-attention fusion</text>
+<text x="974" y="240" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#6B7280" text-anchor="middle">1 encoder layer · 4 heads</text>
+<rect x="938" y="270" width="28" height="28" fill="rgb(128,136,255)" stroke="#fff" stroke-width="1"/>
+<rect x="966" y="270" width="28" height="28" fill="rgb(197,205,255)" stroke="#fff" stroke-width="1"/>
+<rect x="994" y="270" width="28" height="28" fill="rgb(209,217,255)" stroke="#fff" stroke-width="1"/>
+<rect x="938" y="298" width="28" height="28" fill="rgb(197,205,255)" stroke="#fff" stroke-width="1"/>
+<rect x="966" y="298" width="28" height="28" fill="rgb(140,148,255)" stroke="#fff" stroke-width="1"/>
+<rect x="994" y="298" width="28" height="28" fill="rgb(197,205,255)" stroke="#fff" stroke-width="1"/>
+<rect x="938" y="326" width="28" height="28" fill="rgb(209,217,255)" stroke="#fff" stroke-width="1"/>
+<rect x="966" y="326" width="28" height="28" fill="rgb(197,205,255)" stroke="#fff" stroke-width="1"/>
+<rect x="994" y="326" width="28" height="28" fill="rgb(128,136,255)" stroke="#fff" stroke-width="1"/>
+<text x="952" y="265" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#0F766E" text-anchor="middle">F</text>
+<text x="931" y="289" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#0F766E" text-anchor="end">F</text>
+<text x="980" y="265" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#C2410C" text-anchor="middle">P</text>
+<text x="931" y="317" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#C2410C" text-anchor="end">P</text>
+<text x="1008" y="265" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#6D28D9" text-anchor="middle">N</text>
+<text x="931" y="345" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#6D28D9" text-anchor="end">N</text>
+<text x="974" y="372" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#6B7280" text-anchor="middle" font-style="italic">who attends to whom</text>
+<rect x="896" y="386" width="156" height="26" rx="5" fill="#1D4ED8" stroke="#1D4ED8" stroke-width="1"/>
+<text x="974" y="404" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" text-anchor="middle">Add &amp; LayerNorm</text>
+<polyline points="974,412 974,426" fill="none" stroke="#1D4ED8" stroke-width="1.6" marker-end="url(#ahB)" stroke-linejoin="round"/>
+<rect x="896" y="427" width="156" height="40" rx="5" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="1.2"/>
+<text x="974" y="443" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#1D4ED8" text-anchor="middle">Feed-forward</text>
+<text x="974" y="458" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#1F2937" text-anchor="middle">256 → 512 → 256</text>
+<polyline points="974,467 974,480" fill="none" stroke="#1D4ED8" stroke-width="1.6" marker-end="url(#ahB)" stroke-linejoin="round"/>
+<rect x="896" y="481" width="156" height="26" rx="5" fill="#1D4ED8" stroke="#1D4ED8" stroke-width="1"/>
+<text x="974" y="499" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" text-anchor="middle">Add &amp; LayerNorm</text>
+<text x="974" y="525" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#6B7280" text-anchor="middle">then mean over 3 tokens</text>
+<polyline points="1070,360 1103,360" fill="none" stroke="#1D4ED8" stroke-width="2.2" marker-end="url(#ahB)" stroke-linejoin="round"/>
+<text x="868" y="590" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#374151" text-anchor="start">v: 256-d vector per modality</text>
+<text x="868" y="610" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#374151" text-anchor="start">e: learned modality tag</text>
+<text x="868" y="630" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#374151" text-anchor="start">token = v + e</text>
+<text x="868" y="650" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#374151" text-anchor="start">B: batch size</text>
+<text x="1182" y="48" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="bold" fill="#15803D" text-anchor="middle">Classification head</text>
+<text x="1182" y="66" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#6B7280" text-anchor="middle">3 classes</text>
+<rect x="1105" y="343" width="150" height="40" rx="7" fill="#fff" stroke="#15803D" stroke-width="1.6"/>
+<text x="1180" y="360" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1F2937" text-anchor="middle">Linear</text>
+<text x="1180" y="375" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11.5" font-weight="normal" fill="#6B7280" text-anchor="middle">256 → 64</text>
+<polyline points="1180,383 1180,395" fill="none" stroke="#15803D" stroke-width="1.8" marker-end="url(#ahG)" stroke-linejoin="round"/>
+<rect x="1105" y="395" width="150" height="40" rx="7" fill="#fff" stroke="#15803D" stroke-width="1.6"/>
+<text x="1180" y="412" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1F2937" text-anchor="middle">ReLU · Dropout</text>
+<text x="1180" y="427" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11.5" font-weight="normal" fill="#6B7280" text-anchor="middle">p = 0.3</text>
+<polyline points="1180,435 1180,447" fill="none" stroke="#15803D" stroke-width="1.8" marker-end="url(#ahG)" stroke-linejoin="round"/>
+<rect x="1105" y="447" width="150" height="40" rx="7" fill="#fff" stroke="#15803D" stroke-width="1.6"/>
+<text x="1180" y="464" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1F2937" text-anchor="middle">Linear</text>
+<text x="1180" y="479" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11.5" font-weight="normal" fill="#6B7280" text-anchor="middle">64 → 3</text>
+<polyline points="1180,487 1180,499" fill="none" stroke="#15803D" stroke-width="1.8" marker-end="url(#ahG)" stroke-linejoin="round"/>
+<rect x="1105" y="499" width="150" height="40" rx="7" fill="#fff" stroke="#15803D" stroke-width="1.6"/>
+<text x="1180" y="516" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1F2937" text-anchor="middle">Softmax</text>
+<text x="1180" y="531" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11.5" font-weight="normal" fill="#6B7280" text-anchor="middle">probabilities</text>
+<polyline points="1180,539 1180,555" fill="none" stroke="#15803D" stroke-width="1.8" marker-end="url(#ahG)" stroke-linejoin="round"/>
+<text x="1105" y="573" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#15803D" text-anchor="start">P(class | patient)</text>
+<text x="1105" y="597" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#1F2937" text-anchor="start">Normal</text>
+<rect x="1172" y="587" width="78" height="12" rx="2" fill="#16A34A" stroke="#16A34A" stroke-width="1"/>
+<text x="1105" y="619" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#1F2937" text-anchor="start">Leve</text>
+<rect x="1172" y="609" width="33" height="12" rx="2" fill="#CA8A04" stroke="#CA8A04" stroke-width="1"/>
+<text x="1105" y="641" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#1F2937" text-anchor="start">Moderada</text>
+<rect x="1172" y="631" width="15" height="12" rx="2" fill="#DC2626" stroke="#DC2626" stroke-width="1"/>
+<text x="1105" y="663" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#6B7280" text-anchor="start" font-style="italic">illustrative · class = argmax</text>
+</svg>
