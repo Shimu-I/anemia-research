@@ -1,0 +1,9 @@
+modality,model,accuracy_percent,macro_roc_auc_ovr_percent,macro_precision_percent,macro_recall_percent,macro_f1_percent
+palmas,KNN,99.8,99.91,99.73,99.9,99.81
+palmas,Logistic Regression,98.85,99.58,99.23,97.89,98.54
+palmas,Decision Tree,75.39,72.49,57.69,65.82,61.05
+unas,Logistic Regression,97.98,98.32,98.64,96.3,97.43
+unas,Decision Tree,75.0,72.0,57.56,65.15,60.62
+yemas,KNN,99.76,99.89,99.68,99.88,99.78
+yemas,Logistic Regression,98.73,99.58,99.16,97.7,98.41
+yemas,Decision Tree,75.54,72.52,57.73,65.79,61.06

@@ -1,0 +1,2 @@
+loss,accuracy,precision_macro,recall_macro,f1_macro,auc_macro_ovr,hb_mae_g_dl
+1.95735,0.691057,0.402273,0.43295,0.41631,0.762055,1.156462

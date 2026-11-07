@@ -1,0 +1,53 @@
+{
+  "package": "AnaeCare MV-HFMD Final Deliverables",
+  "purpose": "Paper-method adaptation and evaluation; not clinical validation",
+  "source_notebook": "anaecare-mv-hfmd-paper-method-anaecare-gf669d15770.ipynb",
+  "classes": {
+    "0": "Normal",
+    "1": "Leve",
+    "2": "Moderada"
+  },
+  "modalities": [
+    "YEMAS representative frame",
+    "PALMAS representative frame",
+    "UNAS representative nail image"
+  ],
+  "split": {
+    "train": 572,
+    "validation": 123,
+    "test": 123,
+    "total_matched": 818
+  },
+  "test_class_counts": {
+    "Normal": 82,
+    "Leve": 30,
+    "Moderada": 11
+  },
+  "test_metrics": {
+    "accuracy": 0.666667,
+    "macro_precision": 0.222222,
+    "macro_recall": 0.333333,
+    "macro_f1": 0.266667,
+    "macro_roc_auc_ovr": 0.606889,
+    "test_loss": 1.761539
+  },
+  "best_epoch_by_validation_accuracy": 2,
+  "best_validation_accuracy": 0.6666666666666666,
+  "important_result": "All 123 test samples were predicted as Normal in the saved confusion matrix.",
+  "checkpoint_files_included": false,
+  "missing_runtime_artifacts_note": "The uploaded notebook embeds logs and plots, but did not include the original runtime output directory or model checkpoints. Per-patient predictions and checkpoint weights are not fabricated.",
+  "files": [
+    "My_Methodology_Notes.md",
+    "README_Results_Interpretation.md",
+    "anaecare-mv-hfmd-paper-method-anaecare-gf669d15770.ipynb",
+    "results/plots/01_training_validation_loss.png",
+    "results/plots/02_validation_accuracy.png",
+    "results/plots/03_validation_macro_metrics.png",
+    "results/plots/04_test_confusion_matrix.png",
+    "results/plots/05_test_multiclass_ROC.png",
+    "results/test_classification_report.txt",
+    "results/test_confusion_matrix.csv",
+    "results/test_metrics.csv",
+    "results/training_history_from_notebook_output.csv"
+  ]
+}

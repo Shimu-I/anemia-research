@@ -1,0 +1,16 @@
+{
+  "source_notebook": "anaecare-bpanet-methodology-adapted-corrected-v2.ipynb",
+  "metrics_source": "saved cell outputs in uploaded notebook",
+  "included_images": [
+    "test_roc.png",
+    "test_confusion_matrix.png"
+  ],
+  "included_csvs": [
+    "test_metrics.csv",
+    "training_history_from_notebook_output.csv",
+    "per_class_report.csv",
+    "test_confusion_matrix.csv"
+  ],
+  "checkpoint_included": false,
+  "checkpoint_note": "The uploaded notebook contains checkpoint paths in its outputs but not the .pt checkpoint files themselves."
+}

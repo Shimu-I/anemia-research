@@ -1,0 +1,4 @@
+,pred_normal,pred_leve,pred_moderada
+true_normal,212,110,228
+true_leve,65,56,79
+true_moderada,21,18,34

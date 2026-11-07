@@ -1,0 +1,78 @@
+{
+  "package": "AnaeCare Nail-Based DenseNet169 Final Deliverables",
+  "source_notebook": "anaecare-nail-densenet169-three-class.ipynb",
+  "purpose": "UNAS nail-image three-class classification research prototype; not clinical validation",
+  "labels": {
+    "0": "Normal",
+    "1": "Leve",
+    "2": "Moderada"
+  },
+  "dataset_summary": {
+    "images_indexed": 826,
+    "unique_patients": 823
+  },
+  "split_patient_counts": {
+    "train": 576,
+    "validation": 123,
+    "test": 124
+  },
+  "test_class_counts": {
+    "Normal": 83,
+    "Leve": 30,
+    "Moderada": 11
+  },
+  "model": "ImageNet-pretrained DenseNet169",
+  "training": {
+    "optimizer": "Adam",
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0001,
+    "loss": "class-weighted cross entropy",
+    "configured_epochs": 20,
+    "completed_epochs": 15,
+    "best_epoch_by_validation_loss": 10,
+    "early_stopping_patience": 5
+  },
+  "patient_level_test_metrics": {
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.46056955093099666,
+    "macro_precision": 0.42816718165555373,
+    "macro_recall": 0.46056955093099666,
+    "macro_f1": 0.4167878420409689,
+    "n": 124,
+    "macro_roc_auc_ovr": 0.6629003456321113,
+    "best_epoch": 10
+  },
+  "confusion_matrix": [
+    [
+      43,
+      24,
+      16
+    ],
+    [
+      9,
+      15,
+      6
+    ],
+    [
+      3,
+      4,
+      4
+    ]
+  ],
+  "checkpoint_files_included": false,
+  "missing_artifacts_note": "Notebook output references checkpoint and result files in the original Kaggle runtime, but those runtime files were not separately attached with the uploaded notebook. Checkpoint weights and per-patient prediction rows are not fabricated.",
+  "extracted_plots": 3,
+  "files": [
+    "My_Methodology_Notes.md",
+    "README_Results_Interpretation.md",
+    "anaecare-nail-densenet169-three-class.ipynb",
+    "results/image_level_test_metrics.csv",
+    "results/patient_level_classification_report.txt",
+    "results/patient_level_test_confusion_matrix.csv",
+    "results/patient_level_test_metrics.csv",
+    "results/plots/patient_level_test_confusion_matrix.png",
+    "results/plots/patient_level_test_roc_curve.png",
+    "results/plots/training_loss_curve.png",
+    "results/training_history_from_notebook_output.csv"
+  ]
+}

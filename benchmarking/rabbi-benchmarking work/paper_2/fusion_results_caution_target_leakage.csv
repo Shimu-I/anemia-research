@@ -1,0 +1,10 @@
+modality,cnn_backbone,accuracy_percent,macro_roc_auc_ovr_percent,macro_f1_percent
+palmas,MobileNetV2,99.1,99.82,99.02
+palmas,CBAM-MobileNetV2,99.42,99.94,99.34
+palmas,RCBAM-MobileNetV2,98.85,99.66,98.73
+unas,MobileNetV2,97.98,96.65,97.43
+unas,CBAM-MobileNetV2,97.98,97.72,97.43
+unas,RCBAM-MobileNetV2,97.98,98.36,97.43
+yemas,MobileNetV2,98.74,99.48,98.44
+yemas,CBAM-MobileNetV2,98.73,99.48,98.41
+yemas,RCBAM-MobileNetV2,98.69,99.27,98.34

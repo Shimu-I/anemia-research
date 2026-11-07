@@ -1,0 +1,4 @@
+,pred_normal,pred_leve,pred_moderada
+true_normal,0.5614,0.2094,0.2292
+true_leve,0.2935,0.2388,0.4677
+true_moderada,0.2027,0.3108,0.4865

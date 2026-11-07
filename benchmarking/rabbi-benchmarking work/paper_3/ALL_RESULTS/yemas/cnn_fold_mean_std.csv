@@ -1,0 +1,9 @@
+,mean,std
+accuracy,0.5226,0.0816
+precision_macro,0.4634,0.0373
+recall_macro,0.4935,0.0684
+f1_macro,0.4416,0.0624
+precision_weighted,0.6563,0.0285
+recall_weighted,0.5226,0.0816
+f1_weighted,0.5515,0.0743
+roc_auc_ovr_macro,0.6955,0.0352
