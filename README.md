@@ -16,6 +16,18 @@ Final Year Design Project (B.Sc. CSE), United International University, Departme
 
 ---
 
+## About
+
+Imagine a village clinic with no laboratory, or a patient who simply can't get a blood test. Anemia affects a large part of the world's population, yet diagnosing it normally means drawing blood and sending it to a lab.
+
+We asked a simple question: what if a phone camera could give a first signal instead? Our skin and nails change subtly with anemia, so we trained deep learning models on short smartphone recordings of the fingertip, the palm and a single fingernail photo from 909 young adults.
+
+First, we taught a model to read each recording on its own. Then we tested how to combine the three: how to follow motion across video frames, how to let the model decide which recording to trust more (self-attention), and whether age and symptoms help. Finally, we put our best model up against eleven published methods on the same task.
+
+The answer is hopeful but honest. All three recordings carry a real anemia signal, and our model held its ground against every benchmark. But it caught only one of seven moderate cases, so it is not yet ready to replace a blood test. This repository holds the full story: the data, experiments, final model and thesis.
+
+---
+
 ## 1. Summary
 
 | | |
